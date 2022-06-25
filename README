@@ -1,0 +1,20 @@
+INDEX
+======
+GEN_Friday, June, 24 _1859_naive_5000 -- a 5000 row sample in csv format
+app.py -- The actual app/ python script
+folders -- Every other folder are just utilities to help make the app extensible in the future
+
+USAGE
+=======
+(Assuming you have Pandas installed)
+Unzip the folder
+Open your CMD or Powershell
+To generate a 5000 rows csv with the naive random numbers method type:
+"python3 app.py -n 5000 -a naive"
+To generate a 500 rows csv with the 'total weight equal to sum of each weight' random type:
+"python3 app.py -n 500 -a expert"
+
+
+Bonus:
+======
+STATS_Friday, June, 24 _1859_naive_5000 -- Some common stats on the generated csv
